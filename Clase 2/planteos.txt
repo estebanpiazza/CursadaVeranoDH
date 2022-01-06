@@ -1,0 +1,109 @@
+¿Como debemos empezar a programar?
+
+Plantear ENTRADA - PROCESO - SALIDA
+
+Entender y descomponer 
+Entender: saber que tengo que hacer : "objetivo"
+Descomponer: manejar pequeñas partes.
+Generar algoritmos.
+
+Objetivo de hoy: Llegar a la Luna.
+La luna esta a 384 mil Km. 
+
+
+
+Planteo 1:
+Calcular el cambio de monedas en dólares y euros al ingresar cierta cantidad en dinero. (tipo de cambio del Dólar: 2.70 y el Euro: 4.00).
+
+4 pesos = 1 euro
+2.7 pesos = 1 dolares
+
+Entrada: cuantos pesos && a que moneda
+Proceso: Dividir la cantidad de pesos segun la moneda elegida
+Salida: Equivalencia de la moneda
+
+Ejemplo:  (prueba de escritorio)
+100$ son 25€
+100$ son 37.03US$
+
+
+Planteo 2:
+Hacer un programa que calcule el salario de un empleado, si se descuenta el 20% de su salario actual.
+
+Entrada: Salario actual
+Proceso: Descontar 20%
+Salida: Salario descontado ó 80% del salario.
+
+Ejemplo: 
+salario = 10000
+salarioDescontado = 8000
+
+
+
+Planteo 3 (del final):
+Agregar un método buscarPorNombre que permita buscar una receta en función de su nombre.
+Este método recibirá por parámetro un valor de tipo String que represente el nombre a buscar.
+En caso de encontrar una receta, devolverá el objeto literal que la representa.
+En caso contrario devolverá undefined
+
+Entrada: Nombre de la Receta && Todas las recetas
+Proceso: Buscar la receta por nombre entre todas las recetas
+Salida: La receta encontrada o "undefined"
+
+Ejemplo:
+Entrada: "Pastel de remolacha salado"
+Salida:  {
+        "id": 70098,
+        "nombre": "Pastel de remolacha salado",
+        "tipo": "Entrada",
+        "dificultad": 3,
+        "tiempo": 45,
+        "precio": 80,
+        "menuDelDia": true
+    },
+
+Entrada: "Sanguche de milanesa"
+Salida: undefined
+
+
+Planteo 4:
+Hacer un programa que ingrese por teclado un número total de segundos y que luego pueda mostrar la cantidad de horas, minutos y segundos que existen en el valor ingresado.
+
+Entrada: Numero total de segundos
+Proceso: segundos pasarlos a minutos y despues a horas
+Salida: Cantidad de horas, minutos y segundos
+
+Ejemplo: 
+3600 segundos son 1 hora
+3601 segundos son 1 hora y 1 segundo
+3661 segundos son 1 hora, 1 minuto y 1 segundo
+
+Planteo 5:
+Agregar un método filtrarPorTiempo que permita filtrar las recetas que tengan un tiempo de espera menor o igual al tiempo enviado como argumento.
+Este método recibirá por parámetro un valor de tipo Number que representa el tiempo de espera máximo.
+Este método devolverá un array con todas las recetas que tengan un tiempo menor o igual al parámetro enviado
+En caso de no encontrar ninguna receta que cumpla con esta condición, devolverá un array vacío.
+
+Entrada: Tiempo Maximo && Todas las recetas
+Proceso: Seleccionar todas las recetas que cumplan con el criterio de tiempo
+Salida: Las recetas con menor tiempo que el determinado
+
+Ejemplo: 
+35 minutos me devolveria:  {
+        "id": 70560,
+        "nombre": "Fajitas de verduras y tofu",
+        "tipo": "Cena",
+        "dificultad": 2,
+        "tiempo": 30,
+        "precio": 20,
+        "menuDelDia": false
+    },
+       {
+        "id": 70222,
+        "nombre": "Hojaldre de espárragos trigueros",
+        "tipo": "Entrada",
+        "dificultad": 3,
+        "tiempo": 30,
+        "precio": 40,
+        "menuDelDia": false
+    },
