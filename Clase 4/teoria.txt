@@ -1,0 +1,12 @@
+Variable: Un espacio en memoria donde se guarda un valor bajo una denominación.
+let nombre = "Esteban"
+
+var = no se usan. (No nos gustan las variables globales)
+const = no se pueden modificar luego de creadas.
+
+Tipo de dato: "Que esta almacenando la variable"
+https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures
+
+
+
+
