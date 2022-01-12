@@ -79,13 +79,13 @@ console.log( "10" !== 10)
 function edad (numero){
     if (typeof(numero)=="number"){
         if (numero > 18){
-            return "gracias por ingresar tu edad"}
+            return "gracias por ingresar tu edad";}
             else {
-                return "debe ser mayor de edad"
+                return "debe ser mayor de edad";
             }
         
     }else{
-        return "debes ingresar un numero"
+        return "debes ingresar un numero";
     }
 }
 console.log(edad(10))
