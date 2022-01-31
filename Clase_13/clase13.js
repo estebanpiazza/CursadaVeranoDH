@@ -8,6 +8,7 @@ apellido:"Piazza",
 materiaACargo: "Programacion Imperativa",
 documento:37276188,
 obraSocial: "OSDE",
+sueldo: 150000,
 }
 let profesor_imperativa2 = {
     nombre:"Leandro",
@@ -83,3 +84,8 @@ Estado Civil:
 Telefono:
 Lugares de residencia:
 */
+
+
+
+
+
