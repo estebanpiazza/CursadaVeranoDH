@@ -55,3 +55,9 @@ let electronicos = [
   console.table(tiendaElectronica.filtrarPorCantidad(18))
   console.log(tiendaElectronica.aumentarPrecio(20))
   tiendaElectronica.mostrarBonito()
+
+
+
+
+/*   arr.reduce( callback (acumulador, valorActual[, índice[, array]] )  [, valorInicial]) */
+            //              acum        producto                        , 0
