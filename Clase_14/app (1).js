@@ -143,7 +143,7 @@ return pacienteBuscado
 cadaGenero : function(){
   let mujeres = 0
   let hombres = 0
-  for(let i = 0;i<this.pacientes.length;i++){
+  for(let i = 0;i<this.pacientes.length;i ){
     if(this.pacientes[i].Genero === "Mujer"){
       mujeres = mujeres + 1 //metodo noob
     }else{

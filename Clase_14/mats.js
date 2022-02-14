@@ -8,3 +8,4 @@ restar:function (a,b){
 
 }
 module.exports = metodos
+console.log(module)

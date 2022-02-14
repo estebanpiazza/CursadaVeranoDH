@@ -12,7 +12,7 @@ modulo donde lo necesito: require
 */
 
 const MATS = require("./mats")
-
+console.log(MATS)
 console.log(MATS.sumar(1,2))
 console.log(MATS.restar(2,1))
 
