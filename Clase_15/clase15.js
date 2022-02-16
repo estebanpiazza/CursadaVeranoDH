@@ -1,7 +1,7 @@
 Array.prototype.mostrarPosicionesPares = function(){
     let arrayNuevo = []
     for(let i = 0;i<this.length;i++){
-        if(this[i]%2==0){
+        if(i%2==0){
         arrayNuevo.push(this[i])}
     }
 return arrayNuevo
